@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Who is Anand?",
+    "keywords": ["who", "anand", "about", "yourself", "introduce", "tell me about"],
+    "answer": "I'm Anand Anathur Elangovan — a System Architect Engineer and AI Engineer currently at Verizon, where I lead the design and delivery of enterprise AI products used by thousands of employees daily. I specialise in building production-grade AI systems: agentic architectures, RAG pipelines, LLM-powered applications, and cloud-native full-stack solutions. I've shipped 9+ enterprise AI products on Google Cloud, working with Gemini, Vertex AI, LangChain, and vector search at scale. I'm currently based in Australia, passionate about building AI that actually moves the needle for businesses."
+  },
+  {
+    "question": "Tell me about your Verizon work",
+    "keywords": ["verizon", "vzgpt", "enterprise", "work", "job", "current role", "vz"],
+    "answer": "At Verizon, I'm leading enterprise AI transformation. My flagship project is VZGPT — an AI copilot built on Google Gemini and Vertex AI with a custom RAG architecture, now serving 5,000+ daily active users. I've also built: VZSQL Editor (natural language to BigQuery SQL), VZGenie (enterprise knowledge platform with Agentic RAG), VZFlix (AI video intelligence), a Prompt Gallery for enterprise prompt management, and several AI assistants for Citrix support and Hypercare incident triage. All systems run on Google Cloud Run with enterprise-grade security."
+  },
+  {
+    "question": "Tell me about VZGPT",
+    "keywords": ["vzgpt", "ai copilot", "verizon ai", "enterprise copilot"],
+    "answer": "VZGPT is Verizon's internal enterprise AI copilot — a production-grade conversational AI platform I architected and shipped. It's built on Google Gemini with a custom RAG architecture, integrated with Verizon's Confluence knowledge base, internal documentation, and Slack. It serves 5,000+ daily active users, handles 50K+ queries per day, and has saved an estimated $2.4M annually in productivity gains. Response accuracy is 94%, with sub-3-second latency. Built with Python, LangChain, Cloud Run, BigQuery, and Cloud SQL."
+  },
+  {
+    "question": "Explain your AI experience",
+    "keywords": ["ai experience", "ai expertise", "ai skills", "ai background", "llm", "machine learning"],
+    "answer": "I have 3+ years of hands-on production AI experience. My core expertise is in: Agentic AI systems (building multi-agent workflows with planning, tool use, and memory), RAG architectures (from basic retrieval to agentic multi-document reasoning), LLM fine-tuning and prompt engineering (DSPy, LangChain, Vertex AI), vector search and embeddings (Vertex AI Vector Search, semantic similarity), and cloud AI deployment (Google Cloud Run, Vertex AI pipelines). I've shipped 9+ AI products in production at Verizon, serving thousands of users. Technologies I work with daily: Gemini, Vertex AI, LangChain, DSPy, Python, BigQuery, Cloud Run."
+  },
+  {
+    "question": "What is RAG?",
+    "keywords": ["rag", "retrieval", "augmented generation", "explain rag", "how does rag work"],
+    "answer": "RAG (Retrieval-Augmented Generation) is a technique that enhances LLM responses by grounding them in real, retrieved data rather than relying solely on the model's training knowledge. Here's how it works: 1) Documents are chunked and embedded into a vector database. 2) When a user asks a question, the query is embedded and matched against the vector store. 3) The most relevant chunks are retrieved. 4) These chunks are injected into the LLM's context window along with the question. 5) The LLM generates a response grounded in the retrieved information, with citations. I've implemented RAG at Verizon in VZGenie (100K+ Confluence pages) and VZGPT, including advanced variants like Agentic RAG, multi-query retrieval, and re-ranking."
+  },
+  {
+    "question": "Explain Agentic AI",
+    "keywords": ["agentic", "agents", "autonomous ai", "ai agents", "multi-agent", "agentic ai"],
+    "answer": "Agentic AI refers to AI systems that can autonomously plan, decide, and take actions to achieve goals — going beyond simple question-answering. Unlike basic LLMs, agents have: Tools (ability to search the web, query databases, run code), Memory (short-term context + long-term vector memory), Planning (breaking complex goals into sub-tasks), Reflection (evaluating and correcting their own outputs), and Multi-agent coordination (multiple specialised agents working together). At Verizon, I built agentic systems for VZGenie (Agentic RAG with query planning, multi-source retrieval), VZGPT (tool-use agents for Slack, Confluence, BigQuery), and the Hypercare AI Assistant (autonomous incident triage). The frameworks I use are LangChain, LangGraph, and DSPy."
+  },
+  {
+    "question": "What projects have you built?",
+    "keywords": ["projects", "portfolio", "what have you built", "work examples", "showcase"],
+    "answer": "Here are my key projects:\n\n🤖 Enterprise AI (Verizon):\n• VZGPT — Enterprise AI Copilot (Gemini, RAG, 5K+ users)\n• VZSQL Editor — Natural Language to BigQuery SQL\n• VZGenie — Agentic Knowledge Platform (100K+ docs)\n• VZFlix — AI Video Intelligence Platform\n• Prompt Gallery — Enterprise Prompt Management\n• Hypercare AI — Incident Triage Assistant\n• Citrix AI — Troubleshooting Assistant\n• Asset Intelligence — AI Asset Management\n\n🌐 Full Stack:\n• CamToCode — Image to UI Code Generator\n• Living Fire Australia — Premium e-commerce platform\n\nAll enterprise projects are production systems at Verizon serving thousands of users daily."
+  },
+  {
+    "question": "Show cloud experience",
+    "keywords": ["cloud", "gcp", "google cloud", "aws", "infrastructure", "cloud architecture"],
+    "answer": "My cloud expertise is primarily on Google Cloud Platform (GCP), with AWS experience as well.\n\nGCP (Primary):\n• Google Cloud Run — containerised AI microservices at scale\n• Vertex AI — model deployment, pipelines, and Vector Search\n• BigQuery — petabyte-scale analytics and NL-to-SQL\n• Cloud SQL — managed PostgreSQL for AI applications\n• Cloud Storage — document and media storage\n• Pub/Sub — async event-driven architectures\n• Cloud Monitoring & Logging\n\nAWS:\n• EC2, S3, RDS, Lambda\n• AWS Certified Solutions Architect Associate\n\nI hold Google Cloud Professional Cloud Architect, Professional Data Engineer, and Associate Cloud Engineer certifications."
+  },
+  {
+    "question": "Why should we hire Anand?",
+    "keywords": ["hire", "why hire", "why anand", "strengths", "value", "why you"],
+    "answer": "Here's why I'm a strong hire for AI engineering roles:\n\n1. Production AI experience — I've shipped 9+ enterprise AI products to production, not just prototypes. These serve thousands of real users at Verizon daily.\n\n2. Full-stack AI architect — I can go from whiteboard architecture to deployed, monitored production system. I understand the entire stack: LLMs, RAG, agents, APIs, frontend, cloud infrastructure.\n\n3. Deep Google AI expertise — Google Gemini, Vertex AI, LangChain, RAG, Agentic systems are my daily tools. I hold 3 GCP certifications.\n\n4. Enterprise-grade thinking — I build for scale, security, observability, and reliability from day one.\n\n5. Australian market familiarity — Freelance work with Australian clients (Living Fire Australia) and targeting roles in Sydney/Melbourne.\n\n6. Fast learner — I went from Zero to production AI architect in under 3 years, tracking the latest in LLM research and agentic systems."
+  },
+  {
+    "question": "Show certifications",
+    "keywords": ["certifications", "certs", "certified", "credentials", "qualifications"],
+    "answer": "My certifications:\n\n☁️ Google Cloud:\n• Professional Cloud Architect (2024)\n• Professional Data Engineer (2023)\n• Associate Cloud Engineer (2023)\n• Vertex AI Search & Conversation (2024)\n\n🤖 AI/ML:\n• TensorFlow Developer Certificate — Google (2022)\n\n☁️ AWS:\n• Solutions Architect Associate (2022)\n\nAll certifications are current and verifiable."
+  },
+  {
+    "question": "Tell me about your data science experience",
+    "keywords": ["data science", "analytics", "machine learning", "ml", "data analysis", "python data"],
+    "answer": "I've applied Data Science and Applied AI across multiple domains:\n\n📊 At Caterpillar: Built predictive maintenance ML models for 50K+ IoT-connected machines, reducing unplanned downtime by 25%. Used Python, scikit-learn, time-series analysis.\n\n📈 At Verizon: Built the AI Analytics Platform for Employee Experience scoring — a multi-model system that ingests telemetry data, scores application health, and generates AI insights with recommendations. Also built BigQuery analytics pipelines and the VZSQL natural language to SQL system.\n\n🔬 Core skills: Python, Pandas, NumPy, Scikit-learn, BigQuery ML, feature engineering, classification, clustering, anomaly detection, time-series forecasting, A/B testing."
+  },
+  {
+    "question": "How can I contact Anand?",
+    "keywords": ["contact", "email", "reach", "connect", "linkedin", "github", "hire"],
+    "answer": "You can reach me through:\n\n📧 Email: anand.anathur@email.com\n💼 LinkedIn: linkedin.com/in/anand-anathur\n💻 GitHub: github.com/anand-anathur\n📍 Location: Sydney, Australia (open to remote/hybrid)\n\nI'm currently open to:\n• Senior AI Engineer / ML Engineer roles in Australia\n• AI Architect roles at product companies\n• Enterprise AI consulting\n• Interesting AI product collaborations\n\nFeel free to reach out — I respond within 24 hours!"
+  }
+]
