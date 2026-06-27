@@ -1,10 +1,6 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: __dirname,
-  },
-  // Enable React strict mode for better development
   reactStrictMode: true,
 
   // Image optimisation
@@ -18,12 +14,12 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // Compiler options
+  // Strip console logs in production
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
 
-  // Headers for security and performance
+  // Security & cache headers
   async headers() {
     return [
       {
@@ -44,9 +40,7 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Experimental features
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: [
       'framer-motion',
       'lucide-react',
