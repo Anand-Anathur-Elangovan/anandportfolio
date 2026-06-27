@@ -12,6 +12,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Darken slate-400/500 so muted text is readable, not washed-out grey */
+  --color-slate-400: #4B5563;
+  --color-slate-500: #374151;
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -66,7 +70,7 @@
   --secondary: #F1F5F9;
   --secondary-foreground: #334155;
   --muted: #F8FAFC;
-  --muted-foreground: #64748B;
+  --muted-foreground: #374151;
   --accent: #EFF6FF;
   --accent-foreground: #1D4ED8;
   --destructive: #EF4444;
@@ -284,7 +288,7 @@
 
 .section-label {
   @apply text-xs font-semibold uppercase tracking-[0.2em] mb-4 block;
-  color: #64748B;
+  color: #374151;
 }
 
 .heading-display {

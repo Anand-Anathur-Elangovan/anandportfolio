@@ -147,40 +147,40 @@ function PhotoColumn() {
 
       {/* ── Layer 4: floating glass info cards ── */}
 
-      {/* Card: Current role */}
+      {/* Card: Current role — top-right corner */}
       <motion.div
-        className="absolute top-[4%] left-[-2%] md:left-0 glass rounded-2xl px-3.5 py-2.5 shadow-lg z-10"
+        className="absolute top-[4%] right-0 glass rounded-2xl px-3.5 py-2.5 shadow-lg z-10"
         style={{ y: sCard1 }}
-        initial={{ opacity: 0, x: -20 }}
+        initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.9 }}
       >
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-full bg-blue-50 flex items-center justify-center">
+          <div className="w-7 h-7 rounded-full bg-blue-50 flex items-center justify-center shrink-0">
             <Briefcase className="w-3.5 h-3.5 text-blue-600" />
           </div>
           <div>
-            <p className="text-[10px] text-slate-400">Current Role</p>
-            <p className="text-xs font-semibold text-slate-800 whitespace-nowrap">Sys Architect @ Verizon</p>
+            <p className="text-[10px] text-slate-600">Current Role</p>
+            <p className="text-xs font-semibold text-slate-900 whitespace-nowrap">Sys Architect @ Verizon</p>
           </div>
         </div>
       </motion.div>
 
-      {/* Card: Rating/experience */}
+      {/* Card: Experience — bottom-left corner */}
       <motion.div
-        className="absolute bottom-[20%] left-[-4%] md:left-[-2%] glass rounded-2xl px-3.5 py-2.5 shadow-lg z-10"
+        className="absolute bottom-[22%] left-0 glass rounded-2xl px-3.5 py-2.5 shadow-lg z-10"
         style={{ y: sCard2 }}
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 1.1 }}
       >
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-full bg-amber-50 flex items-center justify-center">
+          <div className="w-7 h-7 rounded-full bg-amber-50 flex items-center justify-center shrink-0">
             <Star className="w-3.5 h-3.5 text-amber-500" />
           </div>
           <div>
-            <p className="text-[10px] text-slate-400">Experience</p>
-            <p className="text-xs font-semibold text-slate-800">8+ Years · 9+ AI Products</p>
+            <p className="text-[10px] text-slate-600">Experience</p>
+            <p className="text-xs font-semibold text-slate-900">8+ Years · 9+ AI Products</p>
           </div>
         </div>
       </motion.div>
